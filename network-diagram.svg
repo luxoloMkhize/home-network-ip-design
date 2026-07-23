@@ -1,0 +1,34 @@
+<svg width="680" height="350" viewBox="0 0 680 350" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Home network subnet diagram</title>
+<desc>A router labeled Home network router, 192.168.1.0/24, containing four isolated subnets: Personal devices, Guest network, IoT devices, and Servers/Lab, each shown as a /27 block with gateway and host range.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#444441" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<rect width="680" height="350" fill="#ffffff"/>
+<line x1="340" y1="8" x2="340" y2="38" stroke="#444441" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="340" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5F5E5A">Internet</text>
+
+<rect x="40" y="40" width="600" height="290" rx="20" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="60" y="72" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#2C2C2A">Home network router</text>
+<text x="60" y="90" font-family="Arial, sans-serif" font-size="12" fill="#444441">192.168.1.0/24</text>
+
+<rect x="65" y="105" width="265" height="90" rx="12" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="197" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#04342C">Personal devices</text>
+<text x="197" y="154" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#085041">192.168.1.0/27</text>
+<text x="197" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#085041">Gateway .1 · 30 hosts</text>
+
+<rect x="350" y="105" width="265" height="90" rx="12" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+<text x="482" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#412402">Guest network</text>
+<text x="482" y="154" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#633806">192.168.1.32/27</text>
+<text x="482" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#633806">Gateway .33 · 30 hosts</text>
+
+<rect x="65" y="215" width="265" height="90" rx="12" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+<text x="197" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#4A1B0C">IoT devices</text>
+<text x="197" y="264" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#712B13">192.168.1.64/27</text>
+<text x="197" y="282" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#712B13">Gateway .65 · 30 hosts</text>
+
+<rect x="350" y="215" width="265" height="90" rx="12" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text x="482" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#26215C">Servers / lab</text>
+<text x="482" y="264" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#3C3489">192.168.1.96/27</text>
+<text x="482" y="282" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#3C3489">Gateway .97 · 30 hosts</text>
+</svg>
